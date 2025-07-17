@@ -17,7 +17,7 @@ public class palindromeNumber {
             num=num/10;
         }
 
-        if(org_num==num)
+        if(org_num==rev)
         {
             System.out.println("number is palindrome "+ org_num);
         }
